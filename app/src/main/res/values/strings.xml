@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PokemonListApp</string>
+    <string name="hp">Hp :</string>
+    <string name="attack">Attack :</string>
+    <string name="defence">Defence :</string>
+    <string name="weaknesses">Weaknesses :</string>
+    <string name="type">Type :</string>
+    <string name="category">Category :</string>
+    <string name="name">Name :</string>
+    <string name="tb_main">Pokemon List</string>
+    <string name="tb_details">Pokemon Details</string>
+</resources>

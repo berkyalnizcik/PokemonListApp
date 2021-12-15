@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_details"
+    android:orientation="vertical"
+    tools:context=".fragments.DetailsFragment">
+
+    <Toolbar
+        android:id="@+id/main_tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_toolbar"
+        android:title="@string/tb_details"
+        android:titleTextColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingHorizontal="20dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/name"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Pokemon Title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/category"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDetail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Pokemon Title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/type"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDetail3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Pokemon Title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/hp"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDetail4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Pokemon Title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/attack"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDetail5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Pokemon Title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/defence"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDetail6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Pokemon Title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/weaknesses"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDetail7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Pokemon Title" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_bg"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Back To Pokemon List" />
+</LinearLayout>
