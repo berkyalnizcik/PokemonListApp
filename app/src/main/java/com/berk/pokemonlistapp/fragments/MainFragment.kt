@@ -8,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.pokemonlistapp.R
+import com.berk.pokemonlistapp.R
 import com.berk.pokemonlistapp.adapter.PokemonAdapter
-import com.example.pokemonlistapp.databinding.FragmentMainBinding
+import com.berk.pokemonlistapp.databinding.FragmentMainBinding
 import com.berk.pokemonlistapp.viewmodel.PokemonViewModel
 import dagger.hilt.android.AndroidEntryPoint
 

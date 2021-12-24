@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.pokemonlistapp.databinding.PokemonLayoutAdapterBinding
+import com.berk.pokemonlistapp.databinding.PokemonLayoutAdapterBinding
 import com.berk.pokemonlistapp.models.PokemonResponseItem
 
 class PokemonAdapter(

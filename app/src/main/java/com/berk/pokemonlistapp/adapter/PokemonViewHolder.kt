@@ -2,7 +2,7 @@ package com.berk.pokemonlistapp.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.example.pokemonlistapp.databinding.PokemonLayoutAdapterBinding
+import com.berk.pokemonlistapp.databinding.PokemonLayoutAdapterBinding
 import com.berk.pokemonlistapp.models.PokemonResponseItem
 
 class PokemonViewHolder(val binding: PokemonLayoutAdapterBinding) :
