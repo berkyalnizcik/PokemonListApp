@@ -1,11 +1,11 @@
-package com.example.pokemonlistapp.adapter
+package com.berk.pokemonlistapp.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pokemonlistapp.databinding.PokemonLayoutAdapterBinding
-import com.example.pokemonlistapp.models.PokemonResponseItem
+import com.berk.pokemonlistapp.models.PokemonResponseItem
 
 class PokemonAdapter(
     private val onClick: (PokemonResponseItem) -> Unit

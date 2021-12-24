@@ -1,7 +1,8 @@
-package com.example.pokemonlistapp
+package com.berk.pokemonlistapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.pokemonlistapp.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

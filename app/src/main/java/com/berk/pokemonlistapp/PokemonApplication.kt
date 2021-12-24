@@ -1,4 +1,4 @@
-package com.example.pokemonlistapp
+package com.berk.pokemonlistapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

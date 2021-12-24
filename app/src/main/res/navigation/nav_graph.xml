@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.pokemonlistapp.fragments.MainFragment"
+        android:name="com.berk.pokemonlistapp.fragments.MainFragment"
         android:label="List Pokemon"
         tools:layout="@layout/fragment_main" >
         <action
@@ -17,11 +17,11 @@
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.example.pokemonlistapp.fragments.DetailsFragment"
+        android:name="com.berk.pokemonlistapp.fragments.DetailsFragment"
         android:label="Pokemon Details"
         tools:layout="@layout/fragment_details" >
         <argument
             android:name="pokemonDetail"
-            app:argType="com.example.pokemonlistapp.models.PokemonResponseItem" />
+            app:argType="com.berk.pokemonlistapp.models.PokemonResponseItem" />
     </fragment>
 </navigation>

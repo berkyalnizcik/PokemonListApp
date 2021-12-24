@@ -1,4 +1,4 @@
-package com.example.pokemonlistapp
+package com.berk.pokemonlistapp
 
 import org.junit.Test
 

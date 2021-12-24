@@ -1,4 +1,4 @@
-package com.example.pokemonlistapp.models
+package com.berk.pokemonlistapp.models
 
 
 import android.os.Parcelable

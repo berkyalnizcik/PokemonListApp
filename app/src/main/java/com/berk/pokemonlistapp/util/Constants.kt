@@ -1,4 +1,4 @@
-package com.example.pokemonlistapp.util
+package com.berk.pokemonlistapp.util
 
 object Constants {
     const val BASE_URL = "https://gist.githubusercontent.com/"

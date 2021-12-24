@@ -1,7 +1,7 @@
-package com.example.pokemonlistapp.adapter
+package com.berk.pokemonlistapp.adapter
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.pokemonlistapp.models.PokemonResponseItem
+import com.berk.pokemonlistapp.models.PokemonResponseItem
 
 class PokemonDiffUtil : DiffUtil.ItemCallback<PokemonResponseItem>() {
 

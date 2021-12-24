@@ -1,7 +1,7 @@
-package com.example.pokemonlistapp.di
+package com.berk.pokemonlistapp.di
 
-import com.example.pokemonlistapp.api.ApiService
-import com.example.pokemonlistapp.util.Constants.BASE_URL
+import com.berk.pokemonlistapp.api.ApiService
+import com.berk.pokemonlistapp.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -15,7 +15,7 @@ import javax.inject.Singleton
 object PokemonModule {
     @Provides
     @Singleton
-    fun provideRetrofitInstance():ApiService=
+    fun provideRetrofitInstance(): ApiService =
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())

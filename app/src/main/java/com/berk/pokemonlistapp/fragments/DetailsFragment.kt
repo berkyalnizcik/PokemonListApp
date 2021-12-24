@@ -1,4 +1,4 @@
-package com.example.pokemonlistapp.fragments
+package com.berk.pokemonlistapp.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,10 +9,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import coil.load
-import com.example.pokemonlistapp.MainActivity
+import com.berk.pokemonlistapp.MainActivity
 import com.example.pokemonlistapp.R
 import com.example.pokemonlistapp.databinding.FragmentDetailsBinding
-import com.example.pokemonlistapp.models.PokemonResponseItem
+import com.berk.pokemonlistapp.models.PokemonResponseItem
 
 
 class DetailsFragment : Fragment(R.layout.fragment_details) {

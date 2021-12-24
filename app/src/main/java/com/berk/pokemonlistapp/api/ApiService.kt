@@ -1,7 +1,7 @@
-package com.example.pokemonlistapp.api
+package com.berk.pokemonlistapp.api
 
-import com.example.pokemonlistapp.models.PokemonResponseItem
-import com.example.pokemonlistapp.util.Constants.END_POINT
+import com.berk.pokemonlistapp.models.PokemonResponseItem
+import com.berk.pokemonlistapp.util.Constants.END_POINT
 import retrofit2.Response
 import retrofit2.http.GET
 

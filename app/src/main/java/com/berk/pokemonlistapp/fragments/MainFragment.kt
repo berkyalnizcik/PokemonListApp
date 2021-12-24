@@ -1,4 +1,4 @@
-package com.example.pokemonlistapp.fragments
+package com.berk.pokemonlistapp.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.pokemonlistapp.R
-import com.example.pokemonlistapp.adapter.PokemonAdapter
+import com.berk.pokemonlistapp.adapter.PokemonAdapter
 import com.example.pokemonlistapp.databinding.FragmentMainBinding
-import com.example.pokemonlistapp.viewmodel.PokemonViewModel
+import com.berk.pokemonlistapp.viewmodel.PokemonViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

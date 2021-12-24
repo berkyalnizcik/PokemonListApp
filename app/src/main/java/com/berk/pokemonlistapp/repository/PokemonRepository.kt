@@ -1,6 +1,6 @@
-package com.example.pokemonlistapp.repository
+package com.berk.pokemonlistapp.repository
 
-import com.example.pokemonlistapp.api.ApiService
+import com.berk.pokemonlistapp.api.ApiService
 import javax.inject.Inject
 
 class PokemonRepository

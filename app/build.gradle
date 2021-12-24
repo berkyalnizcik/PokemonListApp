@@ -13,7 +13,7 @@ android {
         viewBinding true
     }
     defaultConfig {
-        applicationId "com.example.pokemonlistapp"
+        applicationId "com.berk.pokemonlistapp"
         minSdk 24
         targetSdk 31
         versionCode 1
@@ -67,7 +67,6 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.40.5")
     kapt("com.google.dagger:hilt-android-compiler:2.38.1")
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
-
 
     //coil
     implementation("io.coil-kt:coil:1.1.1")

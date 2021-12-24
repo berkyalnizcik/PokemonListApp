@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pokemonlistapp">
+    package="com.berk.pokemonlistapp">
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
-        android:name=".PokemonApplication"
+        android:name="com.berk.pokemonlistapp.PokemonApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,7 +12,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.PokemonListApp">
         <activity
-            android:name=".MainActivity"
+            android:name="com.berk.pokemonlistapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
